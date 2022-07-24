@@ -36,6 +36,10 @@ Finally, the application's server can run when you type in the following command
 
 npm start
 
+And you can view the application on your browser with the linke mentioned above:
+
+http://localhost:3001/
+
 ## Example
 
 ![Screenshot 2022-07-24 164243](https://user-images.githubusercontent.com/99151426/180667018-b5fba5f9-687f-49d6-95ce-e0420d82855f.png)
