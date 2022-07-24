@@ -1,6 +1,9 @@
+const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const express = require('express');
+
+const apiRoutes = require('./routes/apiRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
 
 // instantiate the server
 const app = express();
@@ -15,24 +18,8 @@ app.use(express.json());
 // middleware that instructs the server to make certain files readily available and to not gate it behind a server endpoint
 app.use(express.static('public'));
 
-let { notes } = require("./db/db.json");
-
-app.get("/api/notes", (req, res) => {
-    res.json(notes);
-});
-  
-app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "./public/index.html"));
-});
-
-app.get("/notes", (req, res) => {
-    res.sendFile(path.join(__dirname, "./public/notes.html"));
-});
-  
-app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "./public/index.html"));
-});
-
+app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
 
 // chain the listen() method onto our server
 app.listen(PORT, () => {
