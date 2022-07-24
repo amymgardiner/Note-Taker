@@ -17,3 +17,23 @@ Once you click on the link to the notes page, then you will be presented with a 
 After you enter in BOTH the new note's title and the note's text, then a Save icon will appear in the navigation at the top of the page. When you click on the Save icon, then the new note is saved and will appear in the left-hand column with the other existing notes.
 
 If you click on an existing note in the list in the left-hand column, then that note appears in the right-hand column. Also, when you click on the Write icon in the navigation at the top of the page, then you will be presented with empty fields to enter a new note title and the note’s text in the right-hand column.
+
+## How to use it
+
+The easiest way to use this application, is to go to the live Heroku link:
+
+[Note Taker](https://sleepy-caverns-23548.herokuapp.com/)
+
+You can also clone my [GitHub Repository](https://github.com/amymgardiner/Note-Taker). Please make sure you have [Node.js](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs) downloaded first.
+
+Once cloned, open up your command line terminal and go to the file containing the repository on your computer. Then type in the following command:
+
+npm install
+
+which installs the dependencies to the local node_modules folder. By default, npm install will install all modules listed as dependencies in package.json.
+
+Finally, the application's server can run when you type in the following command:
+
+npm start
+
+## Example
