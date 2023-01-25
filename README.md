@@ -8,6 +8,8 @@ The application’s front end was already created for this challenge, so I didn'
 
 This application was made in VS Code and tested in both http://localhost:3001/ and Insomnia.
 
+**Update: Due to the removal of Heroku's free product plans, I have found another free hosting platform that was not taught in the bootcamp. The [Heroku link](https://sleepy-caverns-23548.herokuapp.com/) for this site no longer works. Please view this site with the new link below. Thanks!**
+
 ## How it works
 
 This is a note-taking application. When you open Note Taker, by either running it on your local server and going to http://localhost:3001/ or clicking on the link to the Heroku deployed application, then you will be presented with a landing page with a link to a notes page.
@@ -20,9 +22,9 @@ If you click on an existing note in the list in the left-hand column, then that 
 
 ## How to use it
 
-The easiest way to use this application, is to go to the live Heroku link:
+The easiest way to use this application, is to go to the live Render link:
 
-[Note Taker](https://sleepy-caverns-23548.herokuapp.com/)
+[Note Taker](https://note-taker-fzox.onrender.com/)
 
 You can also clone my [GitHub Repository](https://github.com/amymgardiner/Note-Taker). Please make sure you have [Node.js](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs) downloaded first.
 
