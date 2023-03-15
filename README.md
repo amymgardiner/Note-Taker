@@ -26,6 +26,8 @@ The easiest way to use this application, is to go to the live Render link:
 
 [Note Taker](https://note-taker-fzox.onrender.com/)
 
+==Note: I use Render now for hosting my school projects, on their free plan. A free plan will spin down after 15 minutes of inactivity, and the next request will spin it back up, which can take awhile. So please be patient as the site may take some time to initially load due to Render restrictions.==
+
 You can also clone my [GitHub Repository](https://github.com/amymgardiner/Note-Taker). Please make sure you have [Node.js](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs) downloaded first.
 
 Once cloned, open up your command line terminal and go to the file containing the repository on your computer. Then type in the following command:
